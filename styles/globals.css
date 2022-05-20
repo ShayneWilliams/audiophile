@@ -1,9 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, 'Manrope', BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  font-size: 15px;
+  line-height: 25px;
 }
 
 a {
@@ -11,6 +20,96 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-size: 56px;
+  line-height: 58px;
+  font-family: 'Manrope';
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 44px;
+  font-family: 'Manrope';
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 32px;
+  line-height: 36px;
+  font-family: 'Manrope';
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 28px;
+  line-height: 38px;
+  font-family: 'Manrope';
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 24px;
+  line-height: 33px;
+  font-family: 'Manrope';
+  font-weight: 700;
+}
+
+h6 {
+  font-size: 18px;
+  line-height: 24px;
+  font-family: 'Manrope';
+  font-weight: 700;
+}
+
+p{
+  font-size: 15px;
+  line-height: 25px;
+}
 * {
   box-sizing: border-box;
+}
+
+@media (max-width: 640px) {
+  h1 {
+    font-size: 36px;
+    line-height: 40px;
+    font-family: 'Manrope';
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 28px;
+    line-height: auto;
+    font-family: 'Manrope';
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 32px;
+    line-height: 36px;
+    font-family: 'Manrope';
+    font-weight: 700;
+  }
+
+  h4 {
+    font-size: 28px;
+    line-height: 38px;
+    font-family: 'Manrope';
+    font-weight: 700;
+  }
+
+  h5 {
+    font-size: 24px;
+    line-height: 33px;
+    font-family: 'Manrope';
+    font-weight: 700;
+  }
+
+  h6 {
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Manrope';
+    font-weight: 700;
+  }
 }
