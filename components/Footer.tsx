@@ -20,25 +20,25 @@ export default function Footer() {
           <div className="flex flex-col gap-[16px] text-[13px] mt-[48px] mb-[48px]  md:mt-[32px] md:mb-[32px] md:flex-row  lg:mb-0  ">
             <div className="grid content-center">
               <Link href="/">
-                <a className="text-white w-auto ">HOME</a>
+                <a className="text-white w-auto hover:text-peach ">HOME</a>
               </Link>
             </div>
 
             <div className="grid content-center">
               <Link href="/Headphones">
-                <a className="text-white ">HEADPHONES</a>
+                <a className="text-white hover:text-peach ">HEADPHONES</a>
               </Link>
             </div>
 
             <div className="grid content-center">
               <Link href="/Speakers">
-                <a className="text-white">SPEAKERS</a>
+                <a className="text-white hover:text-peach">SPEAKERS</a>
               </Link>
             </div>
 
             <div className="grid content-center">
               <Link href="/Earphones">
-                <a className="text-white ">EARPHONES</a>
+                <a className="text-white hover:text-peach ">EARPHONES</a>
               </Link>
             </div>
           </div>
